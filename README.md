@@ -1,4 +1,5 @@
 # US School Shootings Analysis
+![Thumbnail](https://raw.githubusercontent.com/danieleavolio/USA-School-Shootings-Analysis/main/Report/Data%20Warehouse%20and%20Visualization.png)
 ## Introduction
 
 This project aims to analyze the trend and pattern of school shootings in the USA through data warehousing and advanced data analytics techniques. The project is based on the dataset from Kaggle.
@@ -31,6 +32,14 @@ This project aims to analyze the trend and pattern of school shootings in the US
 
 - The insights obtained from the data analysis were used to draw conclusions and provide recommendations for preventing future school shootings. The data was analyzed to identify factors that may have contributed to school shootings and to understand the trend and pattern of school shootings in the USA.
 - Based on the findings, recommendations were made to improve school safety and prevent future school shootings.
+
+## Some examples
+
+### Number of incidents per School type 
+![Pentaho 1](https://raw.githubusercontent.com/danieleavolio/USA-School-Shootings-Analysis/main/Report/tableau%20story.png)
+
+### Number of incidents per Shooting period, Place and Quarter 
+![Pentaho 2](https://raw.githubusercontent.com/danieleavolio/USA-School-Shootings-Analysis/main/Report/tableau%204rd%20dashboard.png)
 
 ## Summary
 This project provides valuable insights into the trend and pattern of school shootings in the USA and can assist in the development of targeted prevention strategies to improve the safety of schools. The analysis was carried out using a combination of data warehousing and advanced data analytics techniques, providing a comprehensive understanding of the issue.
