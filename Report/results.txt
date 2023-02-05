@@ -1,0 +1,107 @@
+Checking incident: 
+################## 
+Checking for % of null values: 
+surr_id               0.0
+incident_id           0.0
+quarter               0.0
+school                0.0
+city                  0.0
+state                 0.0
+school_level          0.0
+location              0.0
+situation             0.0
+targets               0.0
+barricade             0.0
+officer_involved      0.0
+bullied               0.0
+domestic_violence     0.0
+gang_related          0.0
+preplanned            0.0
+shots_fired           0.0
+active_shooter_fbi    0.0
+first_shot            0.0
+dtype: float64
+
+Checking for % of duplicated values: 
+0.0
+
+Checking for % of unique values: 
+surr_id               100.000000
+incident_id           100.000000
+quarter                 0.242718
+school                 86.067961
+city                   45.388350
+state                   2.524272
+school_level            0.436893
+location                1.456311
+situation               0.873786
+targets                 0.242718
+barricade               0.145631
+officer_involved        0.194175
+bullied                 0.145631
+domestic_violence       0.194175
+gang_related            0.145631
+preplanned              0.145631
+shots_fired             1.990291
+active_shooter_fbi      0.145631
+first_shot             18.252427
+dtype: float64
+ 
+Checking shooter: 
+################## 
+Checking for % of null values: 
+surr_id              0.0
+shooterid            0.0
+incident_id          0.0
+gender               0.0
+race                 0.0
+schoolaffiliation    0.0
+shooteroutcome       0.0
+shooterdied          0.0
+injury               0.0
+age                  0.0
+dtype: float64
+
+Checking for % of duplicated values: 
+0.0
+
+Checking for % of unique values: 
+surr_id              100.000000
+shooterid            100.000000
+incident_id           89.833479
+gender                 0.219106
+race                   0.438212
+schoolaffiliation      0.876424
+shooteroutcome         0.525855
+shooterdied            0.131464
+injury                 0.219106
+age                    0.262927
+dtype: float64
+ 
+Checking victim: 
+################## 
+Checking for % of null values: 
+surr_id              0.0
+victimid             0.0
+incident_id          0.0
+schoolaffiliation    0.0
+age                  0.0
+gender               0.0
+injury               0.0
+race                 0.0
+dtype: float64
+
+Checking for % of duplicated values: 
+0.0
+
+Checking for % of unique values: 
+surr_id              100.000000
+victimid             100.000000
+incident_id           60.297446
+schoolaffiliation      0.614290
+age                    0.193986
+gender                 0.096993
+injury                 0.129324
+race                   0.161655
+dtype: float64
+ 

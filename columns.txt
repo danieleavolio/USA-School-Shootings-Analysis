@@ -1,0 +1,18 @@
+INCIDENT.csv
+[Incident_ID, Sources, Number_News, Media_Attention, Reliability, Date, Quarter, School, City, State, School_Level, Location, Location_Type, During_School, Time_Period, First_Shot, Summary, Narrative, Situation, Targets, Accomplice, Hostages, Barricade, Officer_Involved, Bullied, Domestic_Violence, Gang_Related, Preplanned, Shots_Fired, Active_Shooter_FBI]
+
+SHOOTER.csv
+[incidentid, age, gender, race, schoolaffiliation, shooteroutcome, shooterdied, injury, chargesfiled, verdict, minorchargedadult, criminalhistory]
+
+
+VICTIM.csv
+[incidentid, race, injury, gender, schoolaffiliation, age]
+
+WEAPON.csv
+[incidentid, weaponcaliber, weapondetails, weapontype]
+
+Analyzing the demographics of shooters and victims to identify any patterns or trends.
+Examining the relationship between the time of day and the likelihood of a shooting incident occurring.
+Investigating the relationship between school-related factors (such as school level and location type) and the likelihood of a shooting incident occurring.
+Analyzing the circumstances surrounding the shooting incident (such as the presence of accomplices or hostages) to identify any patterns or trends.
+Investigating the relationship between the presence of bullying or domestic violence and the likelihood of a shooting incident occurring.

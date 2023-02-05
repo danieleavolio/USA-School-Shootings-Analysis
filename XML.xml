@@ -1,0 +1,55 @@
+<database>
+  <table name="incidents">
+    <column name="incident_id" type="int" primaryKey="true"/>
+    <column name="sources" type="text"/>
+    <column name="number_news" type="int"/>
+    <column name="media_attention" type="text"/>
+    <column name="reliability" type="text"/>
+    <column name="date" type="date"/>
+    <column name="quarter" type="int"/>
+    <column name="school" type="text"/>
+    <column name="city" type="text"/>
+    <column name="state" type="text"/>
+    <column name="school_level" type="text"/>
+    <column name="location" type="text"/>
+    <column name="location_type" type="text"/>
+    <column name="during_school" type="boolean"/>
+    <column name="time_period" type="text"/>
+    <column name="first_shot" type="time"/>
+    <column name="summary" type="text"/>
+    <column name="narrative" type="text"/>
+    <column name="situation" type="text"/>
+    <column name="targets" type="text"/>
+    <column name="accomplice" type="text"/>
+    <column name="hostages" type="text"/>
+    <column name="barricade" type="text"/>
+    <column name="officer_involved" type="text"/>
+    <column name="bullied" type="text"/>
+    <column name="domestic_violence" type="text"/>
+    <column name="gang_related" type="text"/>
+    <column name="preplanned" type="text"/>
+    <column name="shots_fired" type="int"/>
+    <column name="active_shooter_fbi" type="text"/>
+  </table>
+  <table name="shooters">
+    <column name="incident_id" type="int" primaryKey="true" foreignKey="incidents.incident_id"/>
+    <column name="age" type="int"/>
+    <column name="gender" type="text"/>
+    <column name="race" type="text"/>
+    <column name="school_affiliation" type="text"/>
+    <column name="shooter_outcome" type="text"/>
+    <column name="shooter_died" type="text"/>
+    <column name="injury" type="text"/>
+    <column name="charges_filed" type="text"/>
+    <column name="verdict" type="text"/>
+    <column name="minor_charged_as_adult" type="boolean"/>
+    <column name="criminal_history" type="text"/>
+  </table>
+  <table name="victims">
+    <column name="incident_id" type="int" primaryKey="true" foreignKey="incidents.incident_id"/>
+    <column name="race" type="text"/>
+    <column name="injury" type="text"/>
+    <column name="gender" type="text"/>
+    <column name="school_affiliation" type="text"/>
+    <column name="age" type="int"/>
+  </table

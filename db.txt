@@ -1,0 +1,8 @@
+Date: Date, Month, Year
+
+Incident: Bullied, Domestic violence, First shot (time) Gang related, Location, Officer involved, Preplanned, Quarte, School level, Motivation, State, City, Targets
+
+Shooter: Gender, Race, Age, Injury, SchoolAffiliation, ShooterOutcome, Shooterdied
+
+Victim: Gender, Race, Age, Injury, SchooAffiliation, 
+
